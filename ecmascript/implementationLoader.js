@@ -44,7 +44,7 @@ function makeImplementation(implementation) { // holy FUCKIN WHAT
     const langintro = document.createElement("div");
     langintro.setAttribute("class", "implementation-language");
     const langtitle = document.createElement("p");
-    langtitle.innerText = "Written in: " + implementation.lang;
+    langtitle.innerText = "Written by " + implementation.creator + " in " + implementation.lang + ".";
     langintro.appendChild(langtitle);
     langintro.appendChild(langlogo);
     info.appendChild(langintro);

@@ -1,8 +1,9 @@
 {
     "name": "Objective-CMAS",
-    "description": "Objective-CMAS, the hot new kid on the block with a definitely-not-new base. Using the Objective-C Programming Language, it certainly seems like it would be the most outdated of the major implementations, but you'd be surprised. Objective-CMAS is by far the most <em>advanced</em> iteration of SIMAS yet, with innumerable improvements over its predecessors.",
+    "description": "Objective-CMAS, the hot new kid on the block with a definitely-not-new base. Using the Objective-C Programming Language, it certainly seems like it would be the most outdated of the major implementations, but you'd be surprised. Objective-CMAS is by far the most <em>advanced</em> iteration of SIMAS yet, with innumerable improvements over its predecessors.<br>Additionally, Objective-CMAS is <em>hand tuned</em> with Manual Reference Counting, so you can rest assured that you are getting the best balance of stability and raw speed out of this SIMAS iteration.",
     "logo": "objsimas.png",
     "langlogo": "objclang.png",
     "lang": "Objective-C",
-    "website": "/implementations/Objective-CMAS"
+    "website": "/implementations/Objective-CMAS",
+    "creator": "tuvalutorture"
 }

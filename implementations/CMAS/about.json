@@ -1,8 +1,9 @@
 {
     "name": "CMAS",
-    "description": "CMAS, the odd one out of them all. It's got the low level speed and is light on resources, while being a marked step up from prior implementations. However, it is, arguably, the least impressive of the three for your average user :(",
+    "description": "CMAS, the odd one out of them all. It's got the low level speed and is light on resources, while being a marked step up from prior implementations.<br>Unfortunately, CMAS suffers from several flaws that make it less... apealling, compared to its contemporaries. It is, for one, quite unstable & quite fragile. It is frequently prone to crashes, and when it does, it done takes yo ram with it 😔<br>However, the silver lining is that CMAS runs <em>blazingly fast</em> and is <em>incredibly</em> lightweight, being able to even run on MS-DOS when compiled with an appropriate compiler.",
     "logo": "cmas.png",
     "langlogo": "clang.png",
     "lang": "C",
-    "website": "/implementations/CMAS"
+    "website": "/implementations/CMAS",
+    "creator": "tuvalutorture"
 }

@@ -90,6 +90,10 @@
     margin-right: 10px;
   }
 
+  #hell {
+    display: none;
+  }
+
   #title {
     margin-left: 12px;
   }

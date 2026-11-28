@@ -17,25 +17,11 @@
 
     <div id="nav-links-div">
         <ul id="nav-links">
-            <li class="navbar-item" id="hell"><a href="/hell/">hell</li>
+            <li class="navbar-item" id="hell"><a href="/hell/">hell</a></li>
             <li class="navbar-item"><a href="/about/">About</a></li>
             <li class="navbar-item"><a href="/implementations/">Versions</a></li>
             <li class="navbar-item"><a href="/docs/">Documentation</a></li>
             <li class="navbar-item"><a href="/newsfeed/">News</a></li>
         </ul>
     </div>
-    
-    <script>
-        const hamburgerBtn = document.getElementById("hamburger-btn");
-        const navLinks = document.getElementById("nav-links");
-        const navLinksDiv = document.getElementById("nav-links-div");
-
-        console.log(hamburgerBtn);
-
-        hamburgerBtn.addEventListener("click", () => {
-            const isOpen = navLinks.classList.toggle("open") && navLinksDiv.classList.toggle("open");
-            console.log(isOpen);
-            hamburgerBtn.setAttribute("aria-expanded", isOpen);
-        });
-    </script>
 </nav>

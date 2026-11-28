@@ -38,6 +38,13 @@
 
         <script src="/ecmascript/nav.js"></script>
         <script defer>
+            // why was this removed, huh?
+            fetch('/navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-placeholder').innerHTML = data;
+                awaken();
+            });
 
             fetch('/footer.html')
             .then(response => response.text())

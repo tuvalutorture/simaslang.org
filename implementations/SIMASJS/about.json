@@ -1,8 +1,9 @@
 {
     "name": "SIMASJS",
-    "description": "SIMASJS, the original you all know and love. The very first, but not least, implementation of SIMAS, written in JavaScript. Has some cool features none of the others have.",
+    "description": "SIMASJS, the original you all know and love. The very first, but not least, implementation of SIMAS, written in JavaScript.<br>SIMASJS has some cool features none of the others have, such as instruction aliases (such as '+' for <code>ADD</code>), or the ability to spin up a web server on the fly.<br>Do keep in mind it is actively under development and can and will improve :)",
     "logo": "simas.png",
     "langlogo": "jslang.png",
     "lang": "JavaScript",
-    "website": "/implementations/SIMASJS"
+    "website": "/implementations/SIMASJS",
+    "creator": "Turrnut"
 }
